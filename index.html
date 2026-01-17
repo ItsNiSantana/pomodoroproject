@@ -12,7 +12,7 @@
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./img/logo.png" type="image/png">
-    <title>Document</title>
+    <title>My pomodoro timer</title>
 </head>
 
 <body class="bg-dark">
@@ -39,29 +39,45 @@
 
     <!--Container-->
     <div class="container">
+        <!--Config-->
         <div class="row d-flex justify-content-center mt-5 mb-5">
             <div class="col-md-8">
-                <!--Config-->
                 <div id="config" class="row d-flex justify-content-center">
                     <div class="col">
+                        <!--inputs-->
                         <div class="row d-flex justify-content-center">
-                            <div class="col-md-3">
-                                <div class="mb-3">
-                                    <label class="d-flex justify-content-center text-white fw-bold" for="acao">Ação</label>
-                                    <input type="number" class="form-control" id="acao">
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="form-group">
+                                    <label class="d-flex justify-content-center text-white fw-bold"
+                                        for="acao">Ação</label>
+                                    <input type="number"
+                                        class="form-control form-control-lg bg-dark border-0 shadow text-white"
+                                        id="acao">
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="mb-3">
-                                    <label class="d-flex justify-content-center text-white fw-bold" for="pausa">Pausa</label>
-                                    <input type="number" class="form-control" id="pausa">
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="form-group">
+                                    <label class="d-flex justify-content-center text-white fw-bold"
+                                        for="pausa">Pausa</label>
+                                    <input type="number"
+                                        class="form-control form-control-lg bg-dark border-0 shadow text-white"
+                                        id="pausa">
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="mb-3">
-                                    <label class="d-flex justify-content-center text-white fw-bold" for="sessoes">Sessões</label>
-                                    <input type="number" class="form-control" id="sessoes">
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="form-group">
+                                    <label class="d-flex justify-content-center text-white fw-bold"
+                                        for="sessoes">Sessões</label>
+                                    <input type="number"
+                                        class="form-control form-control-lg bg-dark border-0 shadow text-white"
+                                        id="sessoes">
                                 </div>
+                            </div>
+                        </div>
+                        <!--botão iniciar-->
+                        <div class="row mt-5 mb-5 d-flex justify-content-center">
+                            <div class="col-md-9">
+                                <button class="btn btn-danger shadow btn-lg btn-block">Iniciar</button>
                             </div>
                         </div>
                     </div>
@@ -70,13 +86,13 @@
         </div>
     </div>
 
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
-<script src="./script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-    crossorigin="anonymous"></script>
 
 </html>

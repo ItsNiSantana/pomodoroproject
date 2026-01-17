@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    width: 150px !important; /* quando coloca !important força essa configuração mesmo que já exista no bootstrap*/
+    height: 150px !important;
+    font-size: 50px !important;
+    text-align: center !important;
+}
+
+/*remove aquelas setinhas de aumentar/diminuir do tipo número*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"]{
+    -moz-appearance: none;
+}
